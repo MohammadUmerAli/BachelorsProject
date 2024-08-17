@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="News &amp; Events" />
+        <item
+            android:id="@+id/nav_faculty"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Campus Map" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Courses Offered" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_aboutcollege"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_aboutapp"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About App" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="115dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="239dp"
+            android:text="Programme :" />
+
+        <TextView
+            android:id="@+id/Programme"
+            android:layout_width="257dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="226dp"
+            android:text="B.Sc. Medical /Non- Medical" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="115dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="198dp"
+            android:text="Eligibility Criteria:" />
+
+        <TextView
+            android:id="@+id/Eligibility_Criteria"
+            android:layout_width="365dp"
+            android:layout_height="171dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="93dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="25dp"
+            android:text="BA/BSc with Geography as main subject and at least 45% marks or its equivalent on grading scale of respective Boards/Universities (40% marks for SC/ST/OBC/PWD candidates)" />
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
